@@ -1,0 +1,25 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  background-image: url("http://archive.beefjack.com/files/2012/05/marvel-avenger-battle-for-earth.jpg");
+  background-size: cover;  
+}
+
+.jumbotron h1, .jumbotron p {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+#results img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 7px;
+}
+
+#coverImage {
+  max-width: 250px;
+}
