@@ -5,7 +5,6 @@ var watson = require('watson-developer-cloud');
 var cfenv = require('cfenv');
 var appEnv = cfenv.getAppEnv();
 var imageRecogCred = appEnv.getService("visual_recognition");
-console.log(imageRecogCred);
 
 if(!imageRecogCred) {
 	var cred = require('./credentials.json');

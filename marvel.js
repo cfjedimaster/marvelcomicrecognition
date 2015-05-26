@@ -6,8 +6,9 @@ var cache = [];
 
 var IMAGE_NOT_AVAIL = "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available";
 
-var PRIV_KEY = "caf7411bb1b25e318e04815f8120dc5c349a3dda";
-var API_KEY = "fe877c0bf61f995fc8540d9eac4704f1";
+var cred = require('./credentials.json');
+var PRIV_KEY = cred.marvel.privkey;
+var API_KEY = cred.marvel.apikey;
 
 function search(s,cb) {
 	

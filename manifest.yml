@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 1024M
-  host: marvelcomicrecognitation
-  name: MarvelComicRecognitation
+  host: marvelcomicrecognition
+  name: MarvelComicRecognition
   path: .
   domain: mybluemix.net
   instances: 1
